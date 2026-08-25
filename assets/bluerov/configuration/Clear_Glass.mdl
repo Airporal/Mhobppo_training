@@ -1,0 +1,42 @@
+// exported by: omni.mdl.usd_converter [1.0.24]
+// --/exts/omni.mdl.usd_converter/enableNewDemangling=True
+// --/exts/omni.mdl.usd_converter/allowRelativeExports=True
+// --/exts/omni.mdl.usd_converter/allowRelativeExportUpwardLevels=-1
+
+mdl 1.8;
+
+import ::state::normal;
+import ::ZDDhttps_3A_2F::Z59omniverse_2Dcontent_2Dproduction_2Es3_2Eus_2Dwest_2D2_2Eamazonaws_2Ecom::Materials::Z64_32023_5F1::Base::Glass::Clear_Glass::Clear_Glass;
+import ::base::mono_mode;
+import ::tex::gamma_mode;
+
+export material Clear_Glass(*)
+ = ZDDhttps_3A_2F::Z59omniverse_2Dcontent_2Dproduction_2Es3_2Eus_2Dwest_2D2_2Eamazonaws_2Ecom::Materials::Z64_32023_5F1::Base::Glass::Clear_Glass::Clear_Glass(
+    absorption_coeff: color(1.f, 1.f, 1.f),
+    use_glass_color_texture: false,
+    glass_color: color(1.f, 1.f, 1.f),
+    glass_color_texture: texture_2d(),
+    frosting_roughness: 0.f,
+    glass_ior: 1.519999981f,
+    thin_walled: true,
+    depth: 0.001000000047f,
+    roughness_texture_influence: 1.f,
+    roughness_texture: texture_2d(),
+    reflection_color_texture: texture_2d(),
+    reflection_color: color(1.f, 1.f, 1.f),
+    normal_map_texture: texture_2d(),
+    normal_map_strength: 1.f,
+    geometry_normal_roughness_strength: 1.f,
+    flip_tangent_u: false,
+    flip_tangent_v: true,
+    enable_opacity: false,
+    cutout_opacity: 1.f,
+    cutout_opacity_texture: texture_2d(),
+    cutout_opacity_mono_source: base::mono_alpha,
+    opacity_threshold: 0.f,
+    project_uvw: false,
+    world_or_object: false,
+    uv_space_index: 0,
+    texture_translate: float2(0.f),
+    texture_rotate: 0.f,
+    texture_scale: float2(1.f));
