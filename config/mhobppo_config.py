@@ -79,9 +79,9 @@ class DefaultArgsConfig:
     goal_dims = 4
     volume_ratio_range = (0.95, 1.05)
     
-    k1_init = [7.5, 7.5, 7.5, 7.5, 7.5, 7.5]
+    k1_init = [4.0, 4.0, 4.0, 2.5, 2.5, 2.5]
     k1_min = 0.5
-    k2_init = [25.0, 25.0, 25.0, 25.0, 25.0, 25.0]
+    k2_init = [6.0, 6.0, 6.0, 15.0, 15.0, 15.0]
     k2_min = 2.0
     ka_init = 8.0
     ka_min = 1e-6
